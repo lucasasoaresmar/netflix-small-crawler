@@ -16,7 +16,7 @@ Ex:
 Install [Docker](https://www.docker.com/get-started), clone this repository and execute:
 
 ```
-	$ mkdir result
-	$ docker build -t nfcrawler .
-    $ docker run --name=nfcrawler -v <path>\result:/results nfcrawler
+$ mkdir result
+$ docker build -t nfcrawler .
+$ docker run --name=nfcrawler -v <path>\result:/results nfcrawler
 ```
